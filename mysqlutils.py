@@ -222,6 +222,7 @@ def test():
         ("ccc@126.com", "333333"),
         ("ddd@126.com", "444444")
     ]
+    print(type(arrays))
     print("插入数据:", insertmany(sql_str, arrays))
 
     # 查询
